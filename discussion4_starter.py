@@ -18,7 +18,7 @@ class Rectangle():
 
     # YOUR CODE HERE
     def __str__(self):
-        return ("A rectangle with width", self.width, "and height", self.height)
+        return ("A rectangle with width " + str(self.width) + " and height " + str(self.height))
 
 
     # Create the "verify_input" method
@@ -59,7 +59,7 @@ class Rectangle():
         if self.verify_input == False:
             return "Invalid input"
         else:
-            return ((2 * self.wdith) + (2 * self.height))
+            return ((2 * self.width) + (2 * self.height))
 
 
 
